@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .main_nav img {
-    padding-top: 12px;
+  padding-top: 12px;
 }
 .main_nav {
   display: flex;
@@ -28,4 +28,55 @@
 }
 .active {
   color: red;
+}
+.service {
+  width: 350px;
+  height: 400px;
+  border: 1px solid #e5e5e5;
+  box-shadow: -1px 1px 13px 0px black;
+}
+
+.service img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+}
+.title h4 {
+  padding: 7px 0px 7px;
+  font-size: 22px;
+}
+
+.title span {
+  font-size: 18px;
+}
+.prise {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 10px 7px 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 10px 7px 10px;
+}
+.main_Service {
+  padding: 0 36px 0 36px;
+  display: flex;
+  margin: 50px 0 50px 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.service {
+  margin-right: 65px;
+}
+.singal_service {
+  margin-bottom: 50px;
+}
+.img_dev {
+  width: 100%;
+  height: 200px;
 }
