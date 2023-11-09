@@ -80,3 +80,114 @@
   width: 100%;
   height: 200px;
 }
+.Slider {
+  background-image: url("/src/assets/img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  opacity: 0.7;
+  display: flex;
+}
+.subSlider {
+  width: 500px;
+  padding: 51px;
+  margin: auto;
+}
+.main_about h1 {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 52px;
+  height: 80vh;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-img {
+  width: 700px;
+  margin-right: 82px;
+}
+.main_footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  color: white;
+}
+.sub_footer {
+  display: flex;
+  width: 1085px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 50px;
+}
+.contactForm {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #f7f6f6;
+  padding: 50px;
+}
+
+h2.contact_title {
+  text-align: center;
+  margin: 37px 0 38px 0;
+}
+
+.contactLeft h3 {
+  text-align: initial;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.nameInfo input {
+  padding: 10px 15px;
+  font-size: 17px;
+}
+
+.nameInfo input:nth-child(1) {
+  margin-right: 25px;
+}
+
+input.subject {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 12px;
+  margin: 10px 0px 10px 0px;
+}
+.contactLeft {
+  padding: 37px;
+  background: #ffffff;
+}
+.textArea {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 13px;
+}
+
+.btn button {
+  padding: 10px 15px;
+}
+.contactRight {
+  background: #1f911f;
+  padding: 38px;
+  color: white;
+}
+
+.contactRight h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}

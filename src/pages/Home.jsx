@@ -1,11 +1,13 @@
-
-
+import Slider from "../componets/Slider";
+import ContactForm from "../componets/ContactForm";
+import About from "./About";
 
 const Home = () => {
-
   return (
     <div>
-      <h1>This is home page</h1>
+      <Slider />
+      <About />
+      <ContactForm />
     </div>
   );
 };
